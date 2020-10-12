@@ -1,0 +1,72 @@
+#page-orpha{
+    width: 100vw;
+    height: 100vh;
+
+    position: relative;
+    display: flex;
+}
+
+#page-orpha aside{
+    width: 440px;
+    background: linear-gradient(329.54deg, #29B6D1 0%, #00C7C7 100%);
+    padding: 88px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#page-orpha aside h2{
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 42px;
+    margin-top: 64px;
+}
+
+#page-orpha aside p{
+    line-height: 28px;
+    margin-top: 24px;
+    font-size: 18px;
+}
+
+#page-orpha aside footer {
+    display: flex;
+    flex-direction: column;
+
+    line-height: 24px;
+    font-size: 15px;
+}
+
+#page-orpha aside footer strong{
+    font-weight: 800;
+}
+
+#page-orpha .leaflet-container{
+    z-index: 5;
+}
+
+#page-orpha .create-orpha{
+    position: absolute;
+    right: 40px;
+    bottom: 40px;
+
+    z-index: 10;
+
+    width: 64px;
+    height: 64px;
+    background-color: #15c3d8;
+    border-radius: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: background-color 0.2s;
+
+}
+
+#page-orpha .create-orpha:hover{
+    background-color: #17d6eb;
+}
+
+ 
